@@ -4,7 +4,7 @@ import media from "../../utils/style-utils";
 import styled from "styled-components";
 import Link from "gatsby-link";
 
-const NavLink = styled( Link )`
+const NavLink = styled(Link)`
   padding: 1rem;
   color: #fff;
   text-decoration: none;
@@ -21,18 +21,18 @@ const NavLink = styled( Link )`
 `;
 
 class MainNavLink extends React.Component {
-	render () {
-		return (
-			<NavLink activeClassName="is-active" to={this.props.href}>
-				{this.props.text}
-			</NavLink>
-		);
-	}
+  render() {
+    return (
+      <NavLink activeClassName="is-active" to={this.props.href}>
+        {this.props.text}
+      </NavLink>
+    );
+  }
 }
 
 MainNavLink.propTypes = {
-	text: PropTypes.string,
-	href: PropTypes.string
+  text: PropTypes.string,
+  href: PropTypes.string
 };
 
 // const MainNavLink = props =>

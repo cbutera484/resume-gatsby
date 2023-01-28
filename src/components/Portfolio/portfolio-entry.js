@@ -4,7 +4,7 @@ import Img from "react-image";
 import Spinner from "react-spinkit";
 import media from "../../utils/style-utils";
 
-const Logo = styled( Img )`
+const Logo = styled(Img)`
   height: auto;
   width: auto;
   max-width: 100%;
@@ -48,44 +48,43 @@ const Platforms = styled.div`
 
 const RightColumn = styled.div``;
 
-const PortfolioEntry = props => 
-	<PortfolioEntryContainer className="row">
-		<LeftColumn className="six columns">
-			<PortfolioLink target="_blank" href={props.portfolioItem.url}>
-				{` `}
-				<Logo
-					src={`/img/portfolio/${props.portfolioItem.logo}`}
-					alt="{props.portfolioItem.title} Logo"
-					loader={<Spinner name="folding-cube" color="steelblue" />}
-				/>
-			</PortfolioLink>
-		</LeftColumn>
-		<RightColumn className="six columns">
-			<div>
-				<H3>
-					<PortfolioLink target="_blank" href={props.portfolioItem.url}>
-						{props.portfolioItem.title}
-					</PortfolioLink>
-				</H3>
-				<Platforms>{props.portfolioItem.platforms}</Platforms>
-				<Description>{props.portfolioItem.description}</Description>
-				<PortfolioLink target="_blank" href={props.portfolioItem.url}>
+const PortfolioEntry = props => (
+  <PortfolioEntryContainer className="row">
+    <LeftColumn className="six columns">
+      <PortfolioLink target="_blank" href={props.portfolioItem.url}>
+        {` `}
+        <Logo
+          src={`/img/portfolio/${props.portfolioItem.logo}`}
+          alt="{props.portfolioItem.title} Logo"
+          loader={<Spinner name="folding-cube" color="steelblue" />}
+        />
+      </PortfolioLink>
+    </LeftColumn>
+    <RightColumn className="six columns">
+      <div>
+        <H3>
+          <PortfolioLink target="_blank" href={props.portfolioItem.url}>
+            {props.portfolioItem.title}
+          </PortfolioLink>
+        </H3>
+        <Platforms>{props.portfolioItem.platforms}</Platforms>
+        <Description>{props.portfolioItem.description}</Description>
+        <PortfolioLink target="_blank" href={props.portfolioItem.url}>
           Launch Site
-				</PortfolioLink>
-				<Technologies>
-					<strong>Technology used:</strong> {props.portfolioItem.technology}
-				</Technologies>
-				<a
-					rel="noopener noreferrer"
-					target="_blank"
-					href={props.portfolioItem.git}
-				>
-					{props.portfolioItem.git}
-				</a>
-			</div>
-		</RightColumn>
-	</PortfolioEntryContainer>
-
-;
+        </PortfolioLink>
+        <Technologies>
+          <strong>Technology used:</strong> {props.portfolioItem.technology}
+        </Technologies>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={props.portfolioItem.git}
+        >
+          {props.portfolioItem.git}
+        </a>
+      </div>
+    </RightColumn>
+  </PortfolioEntryContainer>
+);
 
 export default PortfolioEntry;

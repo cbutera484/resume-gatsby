@@ -1,13 +1,12 @@
 import React from "react";
 import PortfolioEntries from "../components/Portfolio/portfolio-entries";
 
-const PortfolioPage = () => 
-	<div>
-		<h2>Portfolio</h2>
+const PortfolioPage = () => (
+  <div>
+    <h2>Portfolio</h2>
 
-		<PortfolioEntries />
-	</div>
-
-;
+    <PortfolioEntries />
+  </div>
+);
 
 export default PortfolioPage;
