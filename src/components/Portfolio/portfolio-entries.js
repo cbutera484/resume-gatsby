@@ -8,13 +8,12 @@ const PortfolioEntriesContainer = styled.div`
   padding: 0 !important;
 `;
 
-const PortfolioEntries = () => 
-	<PortfolioEntriesContainer className="container">
-		{Data.portfolioItems.map( item => 
-			<PortfolioEntry key={item.title} portfolioItem={item} />
-		)}
-	</PortfolioEntriesContainer>
-
-;
+const PortfolioEntries = () => (
+  <PortfolioEntriesContainer className="container">
+    {Data.portfolioItems.map(item => (
+      <PortfolioEntry key={item.title} portfolioItem={item} />
+    ))}
+  </PortfolioEntriesContainer>
+);
 
 export default PortfolioEntries;

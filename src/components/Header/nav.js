@@ -11,19 +11,19 @@ const MainNavUL = styled.ul`
 `;
 
 class MainNav extends React.Component {
-	render () {
-		return (
-			<nav>
-				<MainNavUL>
-					<MainNavLink text="Resume" href="/resume" />
-					<MainNavLink text="Portfolio" href="/portfolio" />
-					<MainNavLink text="Contact" href="/contact">
+  render() {
+    return (
+      <nav>
+        <MainNavUL>
+          <MainNavLink text="Resume" href="/resume" />
+          <MainNavLink text="Portfolio" href="/portfolio" />
+          <MainNavLink text="Contact" href="/contact">
             Contact
-					</MainNavLink>
-				</MainNavUL>
-			</nav>
-		);
-	}
+          </MainNavLink>
+        </MainNavUL>
+      </nav>
+    );
+  }
 }
 
 export default MainNav;

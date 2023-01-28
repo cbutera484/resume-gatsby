@@ -8,13 +8,12 @@ const ResumeEntriesContainer = styled.div`
   padding: 0 !important;
 `;
 
-const ResumeEntries = () => 
-	<ResumeEntriesContainer className="container">
-		{Data.resumeItems.map( item => 
-			<ResumeEntry key={item.title} resumeItem={item} />
-		)}
-	</ResumeEntriesContainer>
-
-;
+const ResumeEntries = () => (
+  <ResumeEntriesContainer className="container">
+    {Data.resumeItems.map(item => (
+      <ResumeEntry key={item.title} resumeItem={item} />
+    ))}
+  </ResumeEntriesContainer>
+);
 
 export default ResumeEntries;

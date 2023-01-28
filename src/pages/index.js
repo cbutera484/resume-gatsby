@@ -11,7 +11,7 @@ const H3 = styled.h3`
   font-weight: normal;
 `;
 
-const HeadShot = styled( Img )`
+const HeadShot = styled(Img)`
   border-radius: 5000px;
   background-color: #ccc;
   max-width: 15%;
@@ -23,41 +23,40 @@ const HeadShot = styled( Img )`
   ${media.phone`max-width: 40%;`};
 `;
 
-const IndexPage = () => 
-	<div>
-		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
+const IndexPage = () => (
+  <div>
+    <HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
 
-		<H3>Senior Front-End Engineer</H3>
-		<p>
+    <H3>Senior Front-End Engineer</H3>
+    <p>
       Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 12
       years professional experience building highly scalable, award winning
       websites.
-		</p>
-		<p>
+    </p>
+    <p>
       My current toolset includes{` `}
-			<strong>
+      <strong>
         Javascript (ES6+), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
         VS Code
-			</strong>
-			{` `}but I also have experience with PHP (Laravel) and various CMSs
+      </strong>
+      {` `}but I also have experience with PHP (Laravel) and various CMSs
       including Joomla, Wordpress, and Drupal.
-		</p>
-		<p>
+    </p>
+    <p>
       Check out my <Link to="/resume">Resume</Link> to view my experience or my{` `}
-			<Link to="/portfolio">Portfolio</Link> to view some of my work!
-		</p>
-		<p>
+      <Link to="/portfolio">Portfolio</Link> to view some of my work!
+    </p>
+    <p>
       This site built with React and Gatsby. See the source code on{` `}
-			<a
-				rel="noopener noreferrer"
-				target="_blank"
-				href="https://github.com/cbutera484/resume-gatsby"
-			>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://github.com/cbutera484/resume-gatsby"
+      >
         Git
-			</a>
-		</p>
-	</div>
-
-;
+      </a>
+    </p>
+  </div>
+);
 
 export default IndexPage;
