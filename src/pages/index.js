@@ -43,7 +43,8 @@ const IndexPage = () => (
       including Joomla, Wordpress, and Drupal.
     </p>
     <p>
-      Check out my <Link to="/resume">Resume</Link> to view my experience or my{` `}
+      Check out my <Link to="/resume">Resume</Link> to view my experience or my
+      {` `}
       <Link to="/portfolio">Portfolio</Link> to view some of my work!
     </p>
     <p>
