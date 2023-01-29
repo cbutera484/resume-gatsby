@@ -1,23 +1,20 @@
 {
   "resumeItems": [
     {
-      "title": "Publisher's Clearing House",
+      "title": "Publishers Clearing House",
       "location": "Jericho, NY",
-      "position": "Front-End Tech Lead/Senior Front-End Engineer",
+      "position": "Lead Front-End Engineer",
       "year": "2013-Present",
-      "description":
-        "Scalable mobile and desktop game websites where millions of users play to win cash and prizes.  Collaborated with marketing and design teams in an Agile environment to develop a fun, engaging user experience while meeting aggressive deadlines.      ",
+      "description": "Scalable mobile and desktop game websites where millions of users play to win cash and prizes.  Collaborated with marketing and design teams in an Agile environment to develop a fun, engaging user experience while meeting aggressive deadlines.      ",
       "logo": "pch.jpg",
-      "technology":
-        "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), Responsive (Bootstrap), Accessibility, SEO"
+      "technology": "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), Responsive (Bootstrap), Accessibility, SEO"
     },
     {
       "title": "Curran & Connors",
       "location": "Hauppague, NY",
       "position": "Senior Web Developer",
       "year": "2011-2013",
-      "description":
-        "Websites and Online Annual Reports for well known clients such as Lowe's, McCormick, and NYCB featuring complex animations and designs.  Built flexible, content managed websites using Drupal to cater to client needs and changes throughout the process.",
+      "description": "Websites and Online Annual Reports for well known clients such as Lowe's, McCormick, and NYCB featuring complex animations and designs.  Built flexible, content managed websites using Drupal to cater to client needs and changes throughout the process.",
       "logo": "c&c.png",
       "technology": "Javascript, PHP, Drupal, JQuery, HTML5/CSS3, SEO"
     },
@@ -26,8 +23,7 @@
       "location": "New York, NY",
       "position": "Web Developer",
       "year": "2008-2011",
-      "description":
-        "Built e-commerce and marketing websites for the world's largest publisher.  Developed HTML email campaigns and designed Flash banner ads.",
+      "description": "Built e-commerce and marketing websites for the world's largest publisher.  Developed HTML email campaigns and designed Flash banner ads.",
       "logo": "random-house.png",
       "technology": "Javascript, PHP, Wordpress, HTML/CSS, MySQL, Flash, SEO"
     },
@@ -36,8 +32,7 @@
       "location": "Riverhead, NY",
       "position": "Web Designer/Developer",
       "year": "2006-2008",
-      "description":
-        "Designed and developed various marketing websites for the company's multiple brands.  Designed and built company's internal website.  ",
+      "description": "Designed and developed various marketing websites for the company's multiple brands.  Designed and built company's internal website.  ",
       "logo": "railex.png",
       "technology": "PHP, Javascript, HTML/CSS, Photoshop, Flash, SEO"
     },
@@ -47,15 +42,13 @@
       "year": "2002-2006",
       "description": "",
       "logo": "binghamton.jpg",
-      "technology":
-        "C++, Java, Assembly, Javascript, HTML, CSS, Algorithms, Network Security, Networking"
+      "technology": "C++, Java, Assembly, Javascript, HTML, CSS, Algorithms, Network Security, Networking"
     },
     {
       "title": "RapidCars.com",
       "position": "Webmaster/Owner",
       "year": "1999-2016",
-      "description":
-        "Hobby site I started in high school featuring high resolution photos, news, and various information on high-end exotic cars such as those from Ferrari, Lamborghini, McLaren, and Porsche.  Received millions of visitors with traffic peaking at 10k users per day.  Built up traffic via SEO, email campaigns, and banner advertising.  Optimized site to earn revenue via advertisements with peak earnings ranging from $1k to $2k per month.  Decided to shutdown in 2016 as the site was no longer able to compete with professional automotive blogs.  ",
+      "description": "Hobby site I started in high school featuring high resolution photos, news, and various information on high-end exotic cars such as those from Ferrari, Lamborghini, McLaren, and Porsche.  Received millions of visitors with traffic peaking at 10k users per day.  Built up traffic via SEO, email campaigns, and banner advertising.  Optimized site to earn revenue via advertisements with peak earnings ranging from $1k to $2k per month.  Decided to shutdown in 2016 as the site was no longer able to compete with professional automotive blogs.  ",
       "logo": "rapidcars.jpg",
       "technology": "Wordpress, HTML, CSS, PHP"
     }
