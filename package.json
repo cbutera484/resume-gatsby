@@ -1,4 +1,7 @@
 {
+  "engines" : { 
+    "node" : ">=10.0.0 <11.0.0" 
+  },
   "name": "chris-butera-resume",
   "description": "Chris Butera Resume Package",
   "version": "1.0.0",
