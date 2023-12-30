@@ -22,26 +22,6 @@
       "url": "http://lotto.pch.com"
     },
     {
-      "title": "Lowe's 2011 Annual Report",
-      "description":
-        "Worked closely with client and designer to develop a fun, interactive annual report with complex parallax transitions on a very aggressive deadline.        ",
-      "logo": "lowes2011.jpg",
-      "platforms": "Desktop",
-      "technology": "Javascript, jQuery, html/css",
-      "url":
-        "https://www.lowes.com/AboutLowes/AnnualReports/annual_report_11/index.html"
-    },
-    {
-      "title": "Lowe's 2012 Annual Report",
-      "description":
-        "Interactive annual report with complex intro animation which builds a house of out 50+ tiny icons.  ",
-      "logo": "lowes2012.jpg",
-      "platforms": "Desktop",
-      "technology": "Javascript, jQuery, html/css",
-      "url":
-        "https://www.lowes.com/AboutLowes/AnnualReports/annual_report_12/index.html"
-    },
-    {
       "title": "McCormick 2011 Annual Report",
       "description":
         "Interactive annual report built under a very tight deadline.  ",

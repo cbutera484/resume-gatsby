@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
-import Img from "react-image";
 import HeadShotImage from "../img/headshot-1.jpg";
 import media from "../utils/style-utils";
 
@@ -11,7 +10,7 @@ const H3 = styled.h3`
   font-weight: normal;
 `;
 
-const HeadShot = styled( Img )`
+const HeadShot = styled.img`
   border-radius: 5000px;
   background-color: #ccc;
   max-width: 15%;
@@ -25,21 +24,20 @@ const HeadShot = styled( Img )`
 
 const IndexPage = () => 
 	<div>
-		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
+		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" className="headshot" />
 
 		<H3>Senior Front-End Engineer</H3>
 		<p>
-      Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 12
+      Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 17
       years professional experience building highly scalable, award winning
       websites.
 		</p>
 		<p>
       My current toolset includes{` `}
 			<strong>
-        Javascript (ES6+), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
-        VS Code
+        Javascript, React, Vue, Vite, HTML5/CSS3, Webpack
 			</strong>
-			{` `}but I also have experience with PHP (Laravel) and various CMSs
+			{` `}and I also have experience with PHP (Laravel) and various CMSs
       including Joomla, Wordpress, and Drupal.
 		</p>
 		<p>

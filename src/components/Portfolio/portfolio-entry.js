@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Img from "react-image";
 import Spinner from "react-spinkit";
 import media from "../../utils/style-utils";
 
-const Logo = styled( Img )`
+const Logo = styled.img`
   height: auto;
   width: auto;
   max-width: 100%;
