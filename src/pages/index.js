@@ -24,7 +24,11 @@ const HeadShot = styled.img`
 
 const IndexPage = () => 
 	<div>
-		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" className="headshot" />
+		<HeadShot
+			src={HeadShotImage}
+			alt="Chris Butera Headshot"
+			className="headshot"
+		/>
 
 		<H3>Senior Front-End Engineer</H3>
 		<p>
@@ -34,9 +38,7 @@ const IndexPage = () =>
 		</p>
 		<p>
       My current toolset includes{` `}
-			<strong>
-        Javascript, React, Vue, Vite, HTML5/CSS3, Webpack
-			</strong>
+			<strong>Javascript, React, Vue, Vite, HTML5/CSS3, Webpack</strong>
 			{` `}and I also have experience with PHP (Laravel) and various CMSs
       including Joomla, Wordpress, and Drupal.
 		</p>
