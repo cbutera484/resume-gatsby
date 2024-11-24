@@ -22,51 +22,52 @@ const HeadShot = styled.img`
   ${media.phone`max-width: 40%;`};
 `;
 
-const IndexPage = () => (
-  <div>
-    <HeadShot
-      src={HeadShotImage}
-      alt="Chris Butera Headshot"
-      className="headshot"
-    />
+const IndexPage = () => 
+	<div>
+		<HeadShot
+			src={HeadShotImage}
+			alt="Chris Butera Headshot"
+			className="headshot"
+		/>
 
-    <H3>Lead Front-End Engineer</H3>
-    <p>
+		<H3>Lead Front-End Engineer</H3>
+		<p>
       Hi, I{`'`}m Chris. A Front-End Engineer based in New York with almost 20
       years professional experience building highly scalable, award winning
       websites.
-    </p>
-    <p>
+		</p>
+		<p>
       My current toolset includes{` `}
-      <strong>Javascript, React, Vue, Svelte, Vite, HTML5/CSS3, Webpack</strong>
-      {` `}and I also have experience with <strong>PHP, Laravel,</strong> and
+			<strong>Javascript, React, Vue, Svelte, Vite, HTML5/CSS3, Webpack</strong>
+			{` `}and I also have experience with <strong>PHP, Laravel,</strong> and
       various content management systems including{` `}
-      <strong>Joomla, Wordpress, and Drupal</strong>.
-    </p>
-    <p>
+			<strong>Joomla, Wordpress, and Drupal</strong>.
+		</p>
+		<p>
       My non-tech hobbies include <strong>racing cars</strong>,{` `}
-      <strong>running marathons</strong>, and <strong>playing golf</strong>
-    </p>
-    <p>
+			<strong>running marathons</strong>, and <strong>playing golf</strong>
+		</p>
+		<p>
       Check out my <Link to="/resume">Resume</Link> to view my experience or my
-      {` `}
-      <Link to="/portfolio">Portfolio</Link> to view some of my work!
-    </p>
-    <p>
+			{` `}
+			<Link to="/portfolio">Portfolio</Link> to view some of my work!
+		</p>
+		<p>
       This site built with React and Gatsby. See the source code on{` `}
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href="https://github.com/cbutera484/resume-gatsby"
-      >
+			<a
+				rel="noopener noreferrer"
+				target="_blank"
+				href="https://github.com/cbutera484/resume-gatsby"
+			>
         Git
-      </a>
-    </p>
-    <p>
+			</a>
+		</p>
+		<p>
       I{`'`}m currently working on an updated version using{` `}
-      <strong>React/Remix</strong> that will be launching soon!{` `}
-    </p>
-  </div>
-);
+			<strong>React/Remix</strong> that will be launching soon!{` `}
+		</p>
+	</div>
+
+;
 
 export default IndexPage;
