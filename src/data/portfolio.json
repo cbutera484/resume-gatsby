@@ -1,13 +1,24 @@
 {
   "portfolioItems": [
     {
+      "title": "PCH Quizzes",
+      "description":
+        "Users answer questions on a wide variety of topics to earn tokens that can be exchanged for prizes and sweepstakes entries.  Integrated existing quizzes codebase from acquisition into PCH codebase while adding incentives for users to continuing playing with bonus entries and promotional messaging",
+      "logo": "quizzes.jpg",
+      "platforms": "Desktop, Mobile",
+      "technology":
+        "Vue, Javascript, Webpack,  ESLint, Prettier, PHP (Laravel), SEO",
+      "url": "http://quizzes.pch.com"
+    },
+    
+    {
       "title": "PCH Keno",
       "description":
         "Users pick numbers from 5 game cards with live drawings every 20 minutes where users match numbers for cash prizes.  Users also unlock various instant win scratch cards for playing cards and watching video ads.  For this project, we used a custom MVC js framework that handled gameplay, live drawings, and the overall user flow while making API calls to the backend to handle sending and receiving gameplay data.  Implemented many shared and 3rd party systems responsible for user registration, messaging, tracking, and retention  ",
       "logo": "keno.jpg",
       "platforms": "Desktop, Mobile",
       "technology":
-        "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
+        "Javascript, MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
       "url": "http://keno.pch.com",
       "git": "https://github.com/cbutera484/pchkeno"
     },
@@ -18,28 +29,28 @@
       "logo": "lotto.jpg",
       "platforms": "Desktop, Mobile",
       "technology":
-        "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
+        "Javascript, MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
       "url": "http://lotto.pch.com"
     },
     {
-      "title": "Lowe's 2011 Annual Report",
+      "title": "PCH.com",
       "description":
-        "Worked closely with client and designer to develop a fun, interactive annual report with complex parallax transitions on a very aggressive deadline.        ",
-      "logo": "lowes2011.jpg",
-      "platforms": "Desktop",
-      "technology": "Javascript, jQuery, html/css",
-      "url":
-        "https://www.lowes.com/AboutLowes/AnnualReports/annual_report_11/index.html"
+        "Sweepstakes game portal where users are directed to a variety of games and contests to win cash and prizes.  Built a custom MVC js framework that handled gameplay, live drawings, and the overall user flow while making API calls to the backend to handle sending and receiving gameplay data.  Implemented many shared and 3rd party systems responsible for user registration, messaging, tracking, and retention",
+      "logo": "pchcom.jpg",
+      "platforms": "Desktop, Mobile",
+      "technology":
+        "Vue, Javascript, Webpack,  ESLint, Prettier, PHP (Laravel), SEO",
+      "url": "http://www.pch.com"
     },
     {
-      "title": "Lowe's 2012 Annual Report",
+      "title": "PCH Weekly Grand Prize",
       "description":
-        "Interactive annual report with complex intro animation which builds a house of out 50+ tiny icons.  ",
-      "logo": "lowes2012.jpg",
-      "platforms": "Desktop",
-      "technology": "Javascript, jQuery, html/css",
-      "url":
-        "https://www.lowes.com/AboutLowes/AnnualReports/annual_report_12/index.html"
+        "Landing page for a weekly promotional prize designed to bring in new traffic and users while directing users to download the PCH+ app",
+      "logo": "weekly-grand-prize.jpg",
+      "platforms": "Desktop, Mobile",
+      "technology":
+        "Vue, Javascript, Webpack,  ESLint, Prettier, PHP (Laravel), SEO",
+      "url": "https://rewards.pch.com/weekly-grand-prize"
     },
     {
       "title": "McCormick 2011 Annual Report",
