@@ -8,7 +8,7 @@ const NavLink = styled( Link )`
   padding: 1rem;
   color: #fff;
   text-decoration: none;
-  font-size: calc(1vw + 1vh + 0.3vmin);
+  font-size: 28px;
 
   &:hover {
     color: #222;
@@ -16,8 +16,8 @@ const NavLink = styled( Link )`
   .is-active {
     color: #222;
   }
-
-  ${media.phone`padding: 0`};
+  ${media.tablet`font-size: 24px;`};
+  ${media.phone`padding: 0: font-size: 20px;`};
 `;
 
 class MainNavLink extends React.Component {

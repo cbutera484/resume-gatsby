@@ -12,8 +12,8 @@ const Container = styled.div`
 
 const H1 = styled.h1`
   margin: 1rem 0;
-  font-size: calc(1.5vw + 1.5vh + 0.3vmin);
-  ${media.phone`margin: 0 auto; padding-bottom: 20px;text-align:center; font-size: calc(2.0vw + 2.0vh + 0.9vmin); margin: 0`};
+  font-size: 28px
+    ${media.phone`margin: 0 auto; padding-bottom: 20px;text-align:center; font-size: 20px; margin: 0`};
 `;
 const H1Link = styled( Link )`
   color: #fff;

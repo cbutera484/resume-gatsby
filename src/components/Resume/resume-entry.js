@@ -18,12 +18,12 @@ const ResumeEntryContainer = styled.div`
   align-items: center;
   justify-content: center;
   ${media.phone`display: block`};
-  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  ${media.phone`font-size: calc(1vw + 1vh + 0.7vmin);`};
+  font-size: 16px;
+  ${media.phone`font-size:  14px;`};
 `;
 
 const H3 = styled.h3`
-  font-size: calc(1.5vw + 1.5vh + 0.3vmin);
+  font-size: 28px;
   margin: 0 0 0px 0;
   font-weight: bold;
 `;
